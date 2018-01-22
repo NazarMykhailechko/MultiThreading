@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="gson-2.8.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/gson-2.8.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="jar://$USER_HOME$/Desktop/gson-2.8.1.jar!/META-INF/maven" />
+      <root url="jar://$USER_HOME$/Desktop/gson-2.8.1.jar!/com" />
+      <root url="jar://$USER_HOME$/Desktop/gson-2.8.1.jar!/META-INF/maven/com.google.code.gson/gson" />
+    </excluded>
+  </library>
+</component>

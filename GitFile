@@ -1,0 +1,82 @@
+Для того что бы скопировать/клониолвать/переместить с компьютера на github свой репозиторий нужно:
+1. Создать репозиторий на github и смотришь его url по https или ssh
+2. В папке с проектов запустить gitBash и прописать:
+  git init // Инициализация
+  git add . // Индексируешь
+  git commit -m "first commit" // Коммитишь или git commit -am "first commit"
+  git status // Проверяешь, что все нужные файлы проиндексированы, если попали ненужные изменения, сбрасываешь: git reset HEAD имя файла
+  git remote add <name> <url> // Добавляешь удаленный(дальний) репозиторий, где <name> - это какое-нибудь имя, например origin <url> - это https/ssh ссылка на репозиторий
+  // По умолчанию репозиторий называется origin, просмотреть их можно git remote -v.
+      ------> git push -u origin master Потом можно это вставить
+  git pull --rebase <name> master // Стягиваешь изменения из удаленной ветки:
+  git push <name> master // Отправляешь свои изменения на github // git push [remote-name] [branch-name].
+
+При конфликте можно просмотреть все существующие ветки(для создания ветки используется git branch [branch-name])
+git branch (* — указывает на ту ветку на которой сейчас находимся)
+Для смены ветки: $ git checkout [branch-name]
+
+Чтобы включить изменения в ветке [branch-name] в master, выполните $ git merge [branch-name] находясь при этом в master
+
+Если изменения не конфликтуют, то вы закончили.
+Если же существуют какие либо конфликты, то в проблемных файлах останутся заметки которые можно увидеть выполнив;
+$ git diff
+Как только вы отредактировали файлы вызывающие конфликты выполните,
+$ git commit -a
+
+git push -f origin master
+! Делаем принудительный коммит в основной репозиторий -f значит force
+! Эта команда силой перезаписывает внешний репозиторий на локальный!
+
+
+
+
+Например, если вы фиксируете изменения, и понимаете,
+что забыли проиндексировать изменения в файле,
+который хотели включить в коммит,
+можно сделать примерно так:
+
+$ git commit -m 'initial commit'
+$ git add forgotten_file
+$ git commit --amend
+
+В итоге получится единый коммит — второй коммит заменит результаты первого.
+
+Отмена локальных изменений (до индексации)
+Измените file.html
+Иногда случается, что вы изменили файл в рабочем каталоге,
+и хотите отменить последние коммиты.
+С этим справится команда  <b>checkout</b>
+
+$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#   modified:   file.html
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+
+$ git checkout file.html
+
+$ git status
+# On branch master
+nothing to commit (working directory clean)
+$ cat file.html
+
+
+$ git reset --hard HEAD^ удаляет коммит и все изменения в файла и новый файлы с диска навсегда.
+
+…or create a new repository on the command line
+echo "# ___________" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:DmitriyRF/__________.git
+git push -u origin master
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:DmitriyRF/__________.git
+git push -u origin master
+
