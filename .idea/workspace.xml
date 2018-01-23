@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c0ebf1c-c1fc-4a05-be24-56379243740e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ClientServer/.idea/libraries/Maven__org_jsoup_jsoup_1_11_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ClientServer/src/main/java/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ClientServer/src/main/java/prozzorro/MyThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ClientServer/src/main/java/prozzorro/Run.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ClientServer/.idea/libraries/gson_2_8_1.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ClientServer/target/classes/server/Server.class" afterPath="$PROJECT_DIR$/../ClientServer/target/classes/server/Server.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ClientServer/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ClientServer/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ClientServer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ClientServer/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ClientServer/ClientServer.iml" afterPath="$PROJECT_DIR$/../ClientServer/ClientServer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ClientServer/pom.xml" afterPath="$PROJECT_DIR$/../ClientServer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ClientServer/src/main/java/client/Client.java" afterPath="$PROJECT_DIR$/../ClientServer/src/main/java/client/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ClientServer/src/main/java/server/Server.java" afterPath="$PROJECT_DIR$/../ClientServer/src/main/java/server/Server.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../ClientServer/out/" />
     <ignored path="$PROJECT_DIR$/../ClientServer/target/" />
@@ -361,16 +350,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516645369977</updated>
-      <workItem from="1516645373422" duration="10932000" />
+      <workItem from="1516645373422" duration="11295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10932000" />
+    <option name="totallyTimeSpent" value="11295000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -380,9 +368,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4683393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4683393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30704898" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7467145" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20216216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
